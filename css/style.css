@@ -1,0 +1,31 @@
+
+
+.nav-list {
+    text-align: center;
+    display: flex;  /*makes it horizontal*/
+    padding: 0;
+    list-style: none; /*removes bullets*/
+    gap: 20px;
+}
+
+.nav-card {
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    background: #425180;
+    color: white;
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+.nav-card:hover {
+    transform: translateY(-4px);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px;
+}
+
