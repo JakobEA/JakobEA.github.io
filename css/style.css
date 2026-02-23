@@ -85,3 +85,23 @@ img {
     height: auto;
 }
 
+.hero {
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 1.05rem;
+  opacity: 0.85;
+  max-width: 70ch;
+}
+
+.card {
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(93, 121, 214, 0.12);
+  background: rgba(59, 109, 201, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+}
