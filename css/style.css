@@ -1,11 +1,17 @@
 
 
 .nav-list {
-    text-align: center;
     display: flex;  /*makes it horizontal*/
     padding: 0;
     list-style: none; /*removes bullets*/
     gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .nav-card {
@@ -25,7 +31,11 @@
 .container {
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
-    margin: 20px;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
